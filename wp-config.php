@@ -20,6 +20,9 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define( 'WP_HOME', 'https://sach-it.com/' );
+define( 'WP_SITEURL', 'https://sach-it.com/' );
+
 define( 'DB_NAME', 'ceoxwkrk_lms' );
 
 /** Database username */
