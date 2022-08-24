@@ -1,0 +1,30 @@
+.three_line_top_bottom #main-content {
+	&:before, &:after {
+		content: "";
+		width: 904px;
+		top: 0;
+		bottom: 0;
+		z-index: -2;
+		margin: 0 auto;
+		position: absolute;
+		border-right: 1px solid #f1f1f1;
+		border-left: 1px solid #f1f1f1;
+		left: 50%;
+		margin-left: -452px;
+	}
+
+	&:after {
+		width: 1px;
+		border-right: none;
+		margin-left: -1px;
+	}
+}
+
+@media (min-width: 1400px) {
+	body.size_wide .container.top-heading-style-3 {
+		width: 1325px;
+		border-radius: 7px;
+		box-shadow: 0 0 7px #ddd;
+		padding: 30px;
+	}
+}
